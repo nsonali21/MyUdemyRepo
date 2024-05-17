@@ -43,15 +43,19 @@ public class BrokenLinksTest {
 //    	  (here URL is subclass extending HttpURLConnection (i.e Abstract class) */   	  
 //    	  
 //    	  connection.connect();
-    	  System.out.println("hello");
+    	  System.out.println("hello");//checkn fr ggit
     	  String response=connection.getResponseMessage();
     	  System.out.println(activeLinks.get(j).getAttribute("href")+"----->"+response);
      	  connection.disconnect();
     	  
     	  System.out.println("************Testing for git****************");
+
     	  
+    	  System.out.println("Git Brannching checks1");
+
     	  
-    	  
+    	  System.out.println("Git Brannching checks2");
+    	  System.out.println("Git Brannching checks3");
     	  
     	  
        }
