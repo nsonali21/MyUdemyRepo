@@ -48,10 +48,12 @@ public class BrokenLinksTest {
     	  System.out.println(activeLinks.get(j).getAttribute("href")+"----->"+response);
      	  connection.disconnect();
     	  
+    	  System.out.println("************Testing for git****************");
     	  
+    	  System.out.println("Git Brannching checks1");
     	  
-    	  
-    	  
+    	  System.out.println("Git Brannching checks2");
+    	  System.out.println("Git Brannching checks3");
     	  
     	  
        }
