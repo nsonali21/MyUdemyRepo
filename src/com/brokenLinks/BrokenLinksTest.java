@@ -43,7 +43,7 @@ public class BrokenLinksTest {
 //    	  (here URL is subclass extending HttpURLConnection (i.e Abstract class) */   	  
 //    	  
 //    	  connection.connect();
-    	  System.out.println("hello");
+    	  System.out.println("hello");//checkn fr ggit
     	  String response=connection.getResponseMessage();
     	  System.out.println(activeLinks.get(j).getAttribute("href")+"----->"+response);
      	  connection.disconnect();
