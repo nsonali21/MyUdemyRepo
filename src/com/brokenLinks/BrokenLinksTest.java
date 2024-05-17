@@ -48,7 +48,7 @@ public class BrokenLinksTest {
     	  System.out.println(activeLinks.get(j).getAttribute("href")+"----->"+response);
      	  connection.disconnect();
     	  
-    	  
+    	  System.out.println("************Testing for git****************");
     	  
     	  
     	  
