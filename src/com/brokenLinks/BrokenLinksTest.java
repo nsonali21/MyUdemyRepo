@@ -38,11 +38,12 @@ public class BrokenLinksTest {
 		
        for(int j=0;j<activeLinks.size();j++) {
     	  HttpURLConnection connection = (HttpURLConnection) new URL(activeLinks.get(j).getAttribute("href")).openConnection();
-    	/*HttpURLConnection is abstract class. We can create reference of abstract class(i.e here connection) but we cant instanciate.
-    	  (i.e we can't create object of abtract class)but we can refer this reference to object of subclass
-    	  (here URL is subclass extending HttpURLConnection (i.e Abstract class) */   	  
-    	  
-    	  connection.connect();
+////    	/*HttpURLConnection is abstract class. We can create reference of abstract class(i.e here connection) but we cant instanciate.
+//    	  (i.e we can't create object of abtract class)but we can refer this reference to object of subclass
+//    	  (here URL is subclass extending HttpURLConnection (i.e Abstract class) */   	  
+//    	  
+//    	  connection.connect();
+    	  System.out.println("hello");
     	  String response=connection.getResponseMessage();
     	  System.out.println(activeLinks.get(j).getAttribute("href")+"----->"+response);
      	  connection.disconnect();
