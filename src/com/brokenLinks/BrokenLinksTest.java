@@ -52,8 +52,8 @@ public class BrokenLinksTest {
 
     	  
     	  System.out.println("Git Brannching checks1");
-
-    	  
+    	  System.out.println("Git Brannching checks1");
+    	  System.out.println("Git Brannching checks1");
     	  System.out.println("Git Brannching checks2");
     	  System.out.println("Git Brannching checks3");
     	  
